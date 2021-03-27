@@ -1,0 +1,117 @@
+.navbar{
+    display: flex;
+    background-color: rgb(13, 38, 61);
+    color: rgb(255,215,0);
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 1em ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 60px;
+}
+.ham__icon{
+   
+    display: none ;
+}
+
+    
+
+.navbar__title{
+    display: flex;
+    
+}
+#title{
+    margin: 5px 5px ;
+}
+
+.navbar__menu{
+    display: flex;
+      justify-content: center; 
+      flex: 1;
+}
+
+#menu
+{
+    margin: 5px 20px ;
+    letter-spacing: 1px;
+}
+
+#menu1
+{
+    margin: 5px 0px ;
+}
+.search>form>input{
+    color: rgb(255,215,0);
+    border-style: none;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 5px 5px ;
+}
+#link{
+    color: inherit;
+    text-decoration: inherit;
+}
+#link:hover{
+    background-color: rgb(63, 122, 90);
+    transition: .6s;
+}
+@media (max-width: 800px){
+    .ham__icon{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex: 10%;
+        
+    }
+    #ham{
+        height: 30px;
+        background-color: white;
+    }
+    .navbar__title{
+        margin-left: 1px;
+        justify-content: left;
+        flex: 1;
+        
+    }
+    #hidden {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        top:60px;
+        background-color: rgb(13, 38, 61);
+        width: 100%;
+    }
+    .search>form>input {
+       
+        flex-direction: flex-end;
+        border: 1px solid rgb(191, 191, 206) ;
+        border-style: none;
+        text-decoration: none;
+        border-radius: 30px;
+          flex: 1;
+        
+    }
+    .navbar__menu{
+        display: none;
+    }
+    #button{
+        text-decoration: none;
+        border-style: none ;
+        padding: 5px 5px ;
+        background-color: yellow;
+        border: none ;
+        background-color: transparent;
+        
+    }
+}
+
+@media (max-width:340px){
+ .search{
+     display: none ;
+ }
+ .navbar__title{
+     justify-content: flex-end;
+ }
+ 
+}
