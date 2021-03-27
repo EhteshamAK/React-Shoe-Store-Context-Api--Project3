@@ -1,6 +1,6 @@
 /// URL OF THE WEBSITE 
 
-https://affectionate-stonebraker-944bb4.netlify.app/store
+https://affectionate-stonebraker-944bb4.netlify.app/
 
 /// repos link
 
